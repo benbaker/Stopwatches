@@ -1,0 +1,20 @@
+{
+  "name": "stopwatches",
+  "description": "stopwatches",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express.io": "*",
+    "redis": "*"
+  },
+  "engines": {
+    "jade": "*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "router.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "BSD-2-Clause"
+}
