@@ -8,7 +8,7 @@ var http	= require("http"),
 	app		= express();
 
 var server = {
-	port:8888
+	port: process.env.PORT || 8888
 };
 
 jade.options = {
